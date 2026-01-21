@@ -60,11 +60,12 @@
   border-radius:16px;
 
   background:
-    url("logo.png") center/contain no-repeat,
+    url("./logo.png") center/contain no-repeat,
     linear-gradient(135deg, var(--cyan), var(--cyan2));
 
-  position:relative;
   overflow:hidden;
+  background-clip: padding-box;
+
   border:1px solid rgba(255,255,255,.18);
   box-shadow:0 16px 46px rgba(0,167,255,.22);
 }
